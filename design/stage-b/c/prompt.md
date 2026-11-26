@@ -1,0 +1,18 @@
+# C「事项脉络 · 证据探索空间」
+
+内置 ImageGen 独立生成。参考图 `design/evidence/02-clues-1440.png` 已先查看，并以反面参考附于生成调用。此图用于探索，HTML 为清晰可编辑中文，不进行像素克隆。
+
+Use case: ui-mockup. Create ONE realistic production-quality high-fidelity desktop Chinese UI concept, dimensions 1440 x 900, for a county discipline-inspection staff member organizing a fictional complaint. Current date anchor 2026-11-02. Direction name: 事项脉络 · 证据探索空间.
+
+The attached existing screenshot is a NEGATIVE reference ONLY: completely reject its fixed sidebar/header/three narrow columns, repetitive cards, permanently open AI panel, blue SaaS admin template and tiny grey typography. Do not copy any official insignia. Design a full browser content surface without browser chrome, no device frame, no huge app card inside a background.
+
+This concept must be a relationship-driven, easy-to-understand semantic event chain: a generous warm paper white workspace with graphite type, muted indigo as action color, restrained amber for questions. Keep Chinese body typography readable around 16px, title around 28px, clear 42px controls, substantial but purposeful whitespace. No gradients, glowing graph, knowledge-graph hairball, infinite canvas, risk scores, KPI charts, full-text annotations, document desk metaphor, or five-step wizard.
+
+Core screen shown: headline ‘把同一件事的来龙去脉，放在一起。’ with small context ‘信访材料初筛 / 事项脉络’. One focused readable event-and-entity chain fills the central and left 70%: village collective lease project ‘和盛村集体场地’ linked by a line labeled ‘合同约定’ to document ‘SZ-HT-2026-018’, which links to ‘应于 2026-06-30 前支付 / 年租 36,000 元’. Beneath, tenant node ‘禾田农机服务社 / AI 提取 · 姓名待核’ is visibly connected to contract as ‘承租主体’; highlight this selected node using a thin amber outline and small ‘与原文不一致’ cue. A bank record node shows ‘2026-03-18 / 已见到账 12,000 元’, connected to payment obligation by labeled connector ‘已关联记录’. A calm gap marker ‘24,000 元待核对 / 记录差额不等于欠缴’ bridges records, never implies misconduct.
+
+At the lower edge of this bounded relation space, two large grouped source-document links ‘XF-2026-0108 · 11-01 来信登记’ and ‘XF-2026-0106 · 10-30 网络转办’ connect to the same contract with explicit connectors ‘提及合同与收款’ and ‘补充相同付款诉求’. Nodes are arranged as a clear chronological reading path, not a web of random links. Connectors have readable semantic labels. Sophisticated original line-and-index visual motif, like an editorial evidence atlas.
+
+On the right 30%, a contextual inspector is open ONLY because one node was selected, visually integrated into the surface separated by one vertical line rather than a floating card. Heading ‘核对承租主体’. Show source provenance label ‘原件陈述’, readable source excerpt ‘承租方为禾川农机服务社（虚构）’, then label ‘AI 辅助建议’ with current erroneous value ‘禾田农机服务社’. Show an editable text field with ‘禾川农机服务社’ and clear action ‘确认修正’. At bottom inspector, preview selectable source tab ‘原文依据 / 台账记录’. A persistent but unobtrusive lower action strip has the single primary button ‘保存待复核摘要’, secondary text ‘仅保存整理结果，不启动核查’.
+
+Use four clearly readable provenance labels in restrained colors: ‘原件陈述’ graphite, ‘系统检索台账’ cool neutral, ‘AI 辅助建议’ indigo, ‘人工确认’ green. Small top line only has back to materials on left, simple view switch ‘入口 / 研判’ and ‘演示样例 · 非真实数据’ on right, no global admin navigation. All identities and data fictional. Exact source sample facts must stay consistent: XF-2026-0108, 青禾镇·和盛村, true tenant 禾川农机服务社（虚构）, contract SZ-HT-2026-018, annual rent 36,000, payment by 2026-06-30, observed receipt 12,000 on 2026-03-18, difference 24,000 remains unverified. Present no legal determination and no automatic investigation task.
+

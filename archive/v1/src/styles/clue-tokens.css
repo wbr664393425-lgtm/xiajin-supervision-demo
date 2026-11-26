@@ -1,0 +1,20 @@
+/* 信访场景沿用全局令牌，不再维护第二套色板。 */
+.clues-scene{
+  --cw-page:var(--paper);
+  --cw-surface:var(--surface);
+  --cw-text:var(--ink);
+  --cw-muted:var(--muted);
+  --cw-border:var(--line);
+  --cw-accent:var(--accent);
+  --cw-accent-hover:var(--accent-hover);
+  --cw-accent-active:var(--accent-active);
+  --cw-on-accent:#FFFFFF;
+  --cw-soft:var(--accent-soft);
+  --cw-focus:var(--focus-ring);
+  --cw-success:var(--state-confirmed);
+  --cw-success-soft:var(--state-confirmed-soft);
+  --cw-warning:var(--state-pending);
+  --cw-error:var(--danger);
+  --cw-disabled-bg:var(--paper-2);
+  --cw-disabled-text:var(--muted);
+}

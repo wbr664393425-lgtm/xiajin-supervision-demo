@@ -1,0 +1,44 @@
+/* 夏津纪检监察 v2 · 党建红设计令牌
+ * 主色 #C91519 · 浅红 #FDE9E9 · 暖米 #FFF6E6 · 文字 #333333；金色只用于细线和重点数字。
+ * 风险分级红/橙/黄始终配图标与文字，不单靠颜色。 */
+:root{
+  --red:#C91519;--red-600:#A80F13;--red-700:#860B0F;--red-50:#FDE9E9;--red-25:#FEF5F4;--red-line:#F2C4C2;
+  --cream:#FFF6E6;--cream-2:#FBEFD9;--gold:#C8962E;--gold-soft:#F6E7C8;--gold-line:#E8D3A6;
+  --text:#333333;--text-2:#5B5550;--text-3:#6B655F;--text-4:#746B60;
+  --bg:#F8F5F0;--surface:#FFFFFF;--surface-2:#FCFAF7;--surface-3:#F4EFE8;
+  --line:#EEE7DD;--line-2:#E2D9CC;
+  --risk-high:#C91519;--risk-high-bg:#FDE9E9;--risk-high-line:#F2C4C2;
+  --risk-mid:#C8601A;--risk-mid-bg:#FCEDE0;
+  --risk-low:#A57A0C;--risk-low-bg:#FBF3D8;
+  --focus:#C91519;--card-bg:var(--surface);--card-border:var(--line);
+  --ok:#2C7A57;--ok-bg:#E5F2EA;--ok-line:#B9DAC7;
+  --info:#3A68A3;--info-bg:#E9EFF7;
+  --ai:#4C55A6;--ai-bg:#EEEFF9;--ai-line:#C6CAEA;
+  --shadow-1:0 1px 2px rgba(60,30,20,.05),0 1px 6px rgba(60,30,20,.04);
+  --shadow-2:0 6px 16px rgba(60,30,20,.07),0 20px 48px rgba(60,30,20,.10);
+  --shadow-red:0 6px 18px rgba(201,21,25,.22);
+  --r-xs:6px;--r-sm:8px;--r-md:12px;--r-lg:16px;
+  --font:"PingFang SC","HarmonyOS Sans SC","Source Han Sans SC","Microsoft YaHei",system-ui,sans-serif;
+  --font-num:"DIN Alternate","Bahnschrift","Roboto Condensed","PingFang SC",sans-serif;
+  --font-serif:"Songti SC","Noto Serif SC","Source Han Serif SC",serif;
+  --ease:cubic-bezier(.2,.8,.2,1);--dur:220ms;
+  --header-h:56px;--nav-w:220px;
+  /* ── 主题可替换的外壳与装饰令牌（党建红默认值）。风险红/橙/黄、公文红头不随主题变化 ── */
+  --on-brand:#fff;--brand-accent-ink:#FFE6B8;--brand-grad:linear-gradient(140deg,var(--red),var(--red-700));
+  --accent-ink:#8A6418;--accent-ink-2:#6E4E12;--soft-hover:#FAD9D8;
+  --bg-image:none;--scrim:rgba(40,16,14,.3);--toast-bg:#2B2321;--stop-bg:#3A2A27;
+  --topbar-bg:linear-gradient(100deg,#9E0E12 0%,#C91519 48%,#B71317 100%);
+  --topbar-glow:radial-gradient(circle at 78% -60%,rgba(255,214,150,.22),transparent 45%);
+  --topbar-ink:#fff;--topbar-ink-2:rgba(255,255,255,.85);--topbar-shadow:0 1px 0 rgba(232,194,122,.55),0 4px 14px rgba(120,10,12,.18);
+  --topbar-chip:rgba(255,255,255,.14);--topbar-chip-hover:rgba(255,255,255,.2);--topbar-chip-line:rgba(255,255,255,.18);--topbar-kbd:rgba(0,0,0,.16);
+  --topbar-blur:none;
+  --ai-btn-bg:linear-gradient(180deg,#F6DDA6,#E9C47C);--ai-btn-ink:#6A3E06;--ai-btn-shadow:0 2px 8px rgba(80,30,0,.2);
+  --badge-bg:#FFD27A;--badge-ink:#7A1A0B;--avatar-bg:#FFF6E6;
+  --mark-fill:rgba(255,255,255,.12);--mark-rim:rgba(243,213,155,.55);--mark-shield:#F3D59B;--mark-check:#fff;
+  --nav-bg:var(--surface);--nav-blur:none;
+  --hero-bg:linear-gradient(110deg,#FFFBF3 0%,#FFFFFF 58%,#FEF5F4 100%);--hero-ring:rgba(201,21,25,.04);
+  --panel-head:linear-gradient(120deg,#FFF6E6,#FDE9E9);
+  --chart-1:#C91519;--chart-2:#C8962E;
+  --map-base:#8E1B13;--map-edge:#7A1A0B;--map-dots:#E8D9C2;--map-none-1:#FFF8EA;--map-none-2:#F3E6CC;--map-none-side:#D9C6A3;--map-none-ink:#5B4A2E;
+  --card-edge:none;
+}

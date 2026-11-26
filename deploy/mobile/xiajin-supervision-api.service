@@ -1,0 +1,22 @@
+[Unit]
+Description=Xiajin supervision demo session and model API
+After=network-online.target
+
+[Service]
+DynamicUser=yes
+Group=www-data
+RuntimeDirectory=xiajin-supervision
+RuntimeDirectoryMode=0750
+UMask=0007
+EnvironmentFile=/etc/xiajin-supervision/access.env
+EnvironmentFile=-/etc/xiajin-supervision/model.env
+ExecStart=/usr/bin/python3 -B /opt/wbr/xiajin-supervision-demo/current/deploy/mobile/gateway.py
+Restart=on-failure
+RestartSec=2
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+
+[Install]
+WantedBy=multi-user.target

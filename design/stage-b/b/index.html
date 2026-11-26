@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>数字化案头工作空间 · 方案 B</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="prototype-bar"><a href="../index.html">三案比较</a><span>方案 B · 数字化案头工作空间</span><div class="preview-switch" aria-label="原型视图"><button data-action="home" class="is-active" id="preview-home">入口</button><button data-action="work" id="preview-work">核心研判</button><button data-action="reset" class="reset-control">复位样例</button></div></div>
+  <header class="app-header"><a href="./index.html" class="wordmark"><span class="brand-square">案</span><span>夏津纪检<span class="brand-subtitle">材料工作间</span></span></a><nav aria-label="工作空间"><button data-action="home" id="nav-home" class="nav-active">我的案头</button><button data-action="work" id="nav-work">正在整理<span class="nav-dot"></span></button></nav><div class="header-context"><span>11 月 2 日 · 星期一</span><span class="demo-stamp">虚构样例</span><span class="avatar">演</span><span>演示专员</span></div></header>
+  <main id="app" aria-live="polite"></main>
+  <aside id="source-panel" class="source-panel" aria-label="原件与台账工作面" hidden></aside>
+  <dialog id="intake-dialog" class="dialog intake-dialog"><div class="dialog-heading"><div><span class="small-label">从原件开始</span><h2>先把材料放到案头。</h2><p>使用一份虚构样例，体验材料整理与人工核对。</p></div><button data-action="close-intake" class="close-button" aria-label="关闭材料登记">关闭</button></div><div class="intake-context"><span class="provenance original">原件陈述</span><span>来信登记 · XF-2026-0108 · 2026-11-01</span></div><label for="intake-text" class="field-label">举报材料原文</label><textarea id="intake-text" class="intake-text" rows="9"></textarea><p class="quiet-note">阶段 B 使用固定虚构样例，不解析任意材料，不上传文件，也未接入真实 OCR 或大模型。</p><footer class="dialog-footer"><button data-action="close-intake" class="button secondary">返回案头</button><button data-action="start" class="button primary">使用这份样例，开始整理<span aria-hidden="true">→</span></button></footer></dialog>
+  <dialog id="compare-dialog" class="dialog compare-dialog"></dialog>
+  <dialog id="submit-dialog" class="dialog submit-dialog"></dialog>
+  <div class="session-caption"><span>阶段 B · 独立视觉原型</span><span>本地模拟提取，AI 建议需人工复核；刷新后恢复固定演示状态。</span></div>
+</body>
+</html>

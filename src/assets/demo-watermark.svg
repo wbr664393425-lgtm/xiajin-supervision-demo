@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" class="demo-watermark"
+     role="img" aria-label="样例/演示" focusable="false"
+     style="position:fixed;inset:0;z-index:1000;pointer-events:none;user-select:none">
+  <defs>
+    <pattern id="demo-watermark-tile" width="520" height="300" patternUnits="userSpaceOnUse">
+      <g font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="15" font-weight="500" letter-spacing="3"
+         fill="#5A3A3C" fill-opacity=".075" text-anchor="middle">
+        <text x="130" y="80" transform="rotate(-20 130 80)">样例/演示</text>
+        <text x="390" y="230" transform="rotate(-20 390 230)">样例/演示</text>
+      </g>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#demo-watermark-tile)"/>
+</svg>

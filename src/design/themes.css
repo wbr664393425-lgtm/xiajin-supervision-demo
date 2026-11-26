@@ -1,0 +1,76 @@
+/* 可切换页面配色：默认党建红（tokens.css），以下两套通过 <html data-theme="..."> 覆盖。
+ * 风险分级红/橙/黄（--risk-*）、公文红头属于业务语义，任何主题都不改。
+ * 政务蓝取自 rui-design 政务端庄 civic-trust；珍珠白取自 rui-design 珍珠玻璃 pearl-glass。 */
+
+/* ── 政务蓝 ─────────────────────────────────────────────── */
+:root[data-theme="blue"] {
+  --red:#1A56B8;--red-600:#154A9F;--red-700:#0F3D86;--red-50:#E8F0FB;--red-25:#F4F8FD;--red-line:#C3D5F0;
+  --cream:#EEF3FA;--cream-2:#E3EBF7;--gold:#4F78B5;--gold-soft:#E4ECF7;--gold-line:#C9D6EA;
+  --text:#1A1F29;--text-2:#3F4857;--text-3:#5E6775;--text-4:#656E7B;
+  --bg:#F2F4F7;--surface:#FFFFFF;--surface-2:#F6F8FA;--surface-3:#EEF1F5;
+  --line:#E1E5EB;--line-2:#CFD5DE;
+  --info:#1A56B8;--info-bg:#E8F0FB;
+  --shadow-1:0 1px 2px rgba(26,31,41,.06);
+  --shadow-2:0 8px 24px rgba(26,31,41,.14);
+  --shadow-red:0 4px 12px rgba(26,86,184,.22);
+  --r-xs:4px;--r-sm:6px;--r-md:8px;--r-lg:10px;
+  --focus:#1A56B8;
+  --brand-accent-ink:#DCE8FF;--brand-grad:linear-gradient(140deg,#1F63CC,#0F3D86);
+  --accent-ink:#2F5A99;--accent-ink-2:#1F477F;--soft-hover:#D9E6F8;
+  --scrim:rgba(26,31,41,.45);--toast-bg:#1A1F29;--stop-bg:#1A1F29;
+  --topbar-bg:linear-gradient(100deg,#0D3577 0%,#1A56B8 52%,#164C9F 100%);
+  --topbar-glow:radial-gradient(circle at 78% -60%,rgba(160,200,255,.24),transparent 45%);
+  --topbar-shadow:0 1px 0 rgba(255,255,255,.14),0 4px 14px rgba(13,53,119,.2);
+  --ai-btn-bg:linear-gradient(180deg,#FFFFFF,#E3ECFA);--ai-btn-ink:#123F87;--ai-btn-shadow:0 2px 8px rgba(8,30,70,.22);
+  --badge-bg:#FFC857;--badge-ink:#5A2E00;--avatar-bg:#EAF1FC;
+  --mark-rim:rgba(190,215,255,.6);--mark-shield:#CFE0FF;
+  --hero-bg:linear-gradient(110deg,#EEF3FA 0%,#FAFCFE 55%,#E8F0FB 100%);--hero-ring:rgba(26,86,184,.06);
+  --panel-head:linear-gradient(120deg,#EEF3FA,#E8F0FB);
+  --chart-1:#1A56B8;--chart-2:#117878;
+  --map-base:#1F3F73;--map-edge:#173464;--map-dots:#D5DEEA;--map-none-1:#F7F9FC;--map-none-2:#E3E9F2;--map-none-side:#B9C6D8;--map-none-ink:#3F4857;
+}
+
+/* ── 珍珠白 ─────────────────────────────────────────────── */
+:root[data-theme="pearl"] {
+  --red:#236DE9;--red-600:#1D61D5;--red-700:#174FB0;--red-50:#E9F1FD;--red-25:#F4F8FE;--red-line:#C7DAF9;
+  --cream:#EEF6E6;--cream-2:#E6F1DA;--gold:#58A021;--gold-soft:#EAF5DC;--gold-line:#CFE5B6;
+  --text:#101418;--text-2:#4A5458;--text-3:#586265;--text-4:#60696C;
+  --bg:#E4E8E7;
+  --bg-image:radial-gradient(1200px 640px at 88% -12%,rgba(255,255,255,.95),transparent 62%),radial-gradient(900px 520px at -8% 108%,rgba(214,234,228,.85),transparent 60%);
+  --surface:#FBFCFB;--surface-2:#F5F7F6;--surface-3:#EEF2F1;
+  --line:rgba(46,58,62,.09);--line-2:rgba(46,58,62,.15);
+  --ok:#3A7A12;--ok-bg:#EEF8E2;--ok-line:#CFE5B6;
+  --info:#236DE9;--info-bg:#E9F1FD;
+  --ai:#0A7584;--ai-bg:#E2F5F7;--ai-line:#B8E3E8;
+  --shadow-1:inset 0 1px 0 rgba(255,255,255,.92),0 1px 3px rgba(46,58,62,.06),0 12px 30px rgba(46,58,62,.055);
+  --shadow-2:0 2px 6px rgba(46,58,62,.07),0 22px 50px rgba(46,58,62,.08);
+  --shadow-red:0 1px 2px rgba(20,66,148,.28),0 8px 18px rgba(35,109,233,.24);
+  --r-xs:8px;--r-sm:12px;--r-md:16px;--r-lg:20px;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",sans-serif;
+  --font-num:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",sans-serif;
+  --ease:cubic-bezier(.16,1,.3,1);
+  --focus:rgba(35,109,233,.8);
+  --on-brand:#fff;--brand-accent-ink:#fff;--brand-grad:linear-gradient(145deg,#0E65E8,#1D5FD0);
+  --accent-ink:#3A7A12;--accent-ink-2:#2E6410;--soft-hover:#DCE8FC;
+  --scrim:rgba(24,30,32,.32);--toast-bg:#1A1E21;--stop-bg:#1A1E21;
+  --topbar-bg:rgba(251,252,251,.78);
+  --topbar-glow:linear-gradient(90deg,rgba(130,221,45,.10),transparent 32%,transparent 68%,rgba(35,109,233,.08));
+  --topbar-ink:#101418;--topbar-ink-2:#596368;
+  --topbar-shadow:inset 0 -1px 0 rgba(46,58,62,.14),0 4px 16px rgba(46,58,62,.07);
+  --topbar-chip:rgba(46,58,62,.05);--topbar-chip-hover:rgba(46,58,62,.08);--topbar-chip-line:rgba(46,58,62,.09);--topbar-kbd:rgba(46,58,62,.08);
+  --topbar-blur:blur(22px) saturate(1.15);
+  --ai-btn-bg:linear-gradient(180deg,#F2F7FE,#E2EEFD);--ai-btn-ink:#174FB0;--ai-btn-shadow:inset 0 0 0 1px rgba(35,109,233,.28),0 2px 6px rgba(35,109,233,.10);
+  --badge-bg:#FF5A50;--badge-ink:#fff;--avatar-bg:#E9F1FD;
+  --mark-fill:rgba(35,109,233,.08);--mark-rim:rgba(35,109,233,.32);--mark-shield:#236DE9;--mark-check:#58A021;
+  --nav-bg:rgba(250,251,250,.7);--nav-blur:blur(22px);
+  --hero-bg:linear-gradient(120deg,rgba(255,255,255,.96),rgba(240,247,244,.92) 55%,rgba(233,241,253,.92));--hero-ring:rgba(35,109,233,.06);
+  --panel-head:linear-gradient(120deg,#F4F8F6,#E9F1FD);
+  --chart-1:#236DE9;--chart-2:#0D8889;
+  --map-base:#5F696D;--map-edge:#46525A;--map-dots:#D3DAD8;--map-none-1:#FFFFFF;--map-none-2:#EEF2F1;--map-none-side:#C5CCCB;--map-none-ink:#46525A;
+  --card-bg:linear-gradient(145deg,rgba(255,255,255,.97),rgba(249,252,251,.93));--card-border:rgba(46,58,62,.1);
+}
+/* 珍珠白：卡片带上缘高光与轻玻璃质感；不支持或要求减少透明度时退回实色 */
+:root[data-theme="pearl"] .ui-card{background:var(--card-bg);border-color:var(--card-border)}
+@media (prefers-reduced-transparency: reduce){
+  :root[data-theme="pearl"]{--topbar-bg:#FBFCFB;--nav-bg:#FBFCFB;--topbar-blur:none;--nav-blur:none;--card-bg:#FBFCFB}
+}
